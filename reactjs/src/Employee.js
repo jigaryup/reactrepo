@@ -1,14 +1,15 @@
+import React from 'react'
 import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import Student from './Student'
 
-export default class Employee extends Component {
-  static propTypes = {second: third}
-
-  render() {
-    return (
-      <>
-      <div>Employee</div>
-      </>
-    )
-  }
+function Employee(props) {
+  return (
+    
+    <h1>Employee {props.name}</h1>
+    
+  )
 }
+
+Employee.propTypes = {}
+
+export default Employee
