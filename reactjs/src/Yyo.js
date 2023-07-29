@@ -1,12 +1,14 @@
-import React from 'react'
 import PropTypes from 'prop-types'
+import React, { Component } from 'react'
 
-function Yyo(props) {
-  return (
-    <div>Yyo</div>
-  )
+export default class Yyo extends Component {
+//   static propTypes = {second: third}
+    
+  render() {
+    
+    return (
+       
+      <div>Yyo {this.props.name}</div>
+    )
+  }
 }
-
-Yyo.propTypes = {}
-
-export default Yyo
