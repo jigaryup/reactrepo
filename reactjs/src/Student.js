@@ -4,10 +4,6 @@ import PropTypes from 'prop-types'
 function Student(props) {
   return (
     <div>Student</div>
-  <h1>heloo</h1>
-
-
-  
   )
 }
 
